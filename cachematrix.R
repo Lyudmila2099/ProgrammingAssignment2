@@ -9,10 +9,10 @@
 ## The first function, makeCacheMatrix creates a matrix object
 ## that caches a square invertible matrix "x" 
 ## which is really a list containing a function to 
-## set the value of the matrix
-## get the value of the matrix
-## set the inverse matrix
-## and get the inverse matrix
+## set the value of the matrix,
+## get the value of the matrix,
+## set the inverse matrix,
+## and get the inverse matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
   inverse <- NULL
